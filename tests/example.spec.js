@@ -7,9 +7,9 @@ const { test,expect} = require('@playwright/test');//import
 
 // const NewWindow=await browser.newContext();// icognito page khul gaya//new context
 
-// const NewTab=await NewWindow.newPage();//new tab
+//const NewTab=await NewWindow.newPage();//new tab
 
-// await NewTab.goto("https://demo.automationtesting.in/Register.html");
+//await NewTab.goto("https://demo.automationtesting.in/Register.html");
 
 // })
 // test.only("Verify if we navigate to a url a page gets loaded",async({page})=>{
@@ -69,4 +69,4 @@ test.only("Verify if we enter correct credential. User should be login ",async({
     await page.locator('//button[@class="btn btn-custom"]').nth(3).click();
 })
 //Checking Git Pull
-
+//Checking And Adding Channges New Branch
