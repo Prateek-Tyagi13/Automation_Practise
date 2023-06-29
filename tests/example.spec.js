@@ -68,4 +68,5 @@ test.only("Verify if we enter correct credential. User should be login ",async({
     await page.locator('//button[@class="btn w-10 rounded"]').first().click();
     await page.locator('//button[@class="btn btn-custom"]').nth(3).click();
 })
+//Checking Git Pull
 
